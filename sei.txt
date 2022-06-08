@@ -1,0 +1,26 @@
+module.exports = {
+  content: ['index.php',  
+            '/modals/confirm_modal.html',],
+            theme: {
+              extend: {
+      colors: {
+        aside: '#68A7AD',
+        card: '#C4C4EE',
+        whites: '#F5F5F5',
+        inp: '#EFEFEF',
+        sei: 'rgba(0,0,0,0.8);'
+      },
+      fontFamily: {
+        body: ['Poppins']
+      },
+      margin: {
+        'c': '0 auto',
+      }
+
+    },
+  },
+  plugins: [],
+}
+
+
+
